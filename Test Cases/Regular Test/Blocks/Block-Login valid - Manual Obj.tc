@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Block-Login valid - Manual Obj</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a92f3dd4-8666-45cf-bb80-60276d16f741</testCaseGuid>
+</TestCaseEntity>

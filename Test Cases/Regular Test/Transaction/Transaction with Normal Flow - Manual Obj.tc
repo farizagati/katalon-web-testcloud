@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transaction with Normal Flow - Manual Obj</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3122489-5b0f-47f7-be5a-d486a9ae43de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14835757-92ee-4b99-a454-c1273a4da337</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a96124a-2f62-4b41-9767-f4c42e65f5b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66198527-7f8c-45b1-a85c-056431d83fad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'My First'</defaultValue>
+      <description></description>
+      <id>14835757-92ee-4b99-a454-c1273a4da337</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'My Last Name'</defaultValue>
+      <description></description>
+      <id>9a96124a-2f62-4b41-9767-f4c42e65f5b0</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>66198527-7f8c-45b1-a85c-056431d83fad</id>
+      <masked>false</masked>
+      <name>ZipPostalCode</name>
+   </variable>
+</TestCaseEntity>

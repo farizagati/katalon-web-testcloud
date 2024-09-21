@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>block-Open Browser with config</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e632303-5022-4b00-b1c5-7ab6d00c07e7</testCaseGuid>
+</TestCaseEntity>
