@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Visual Testing/Block-TC/block-Open Browser with config'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshotAsCheckpoint('login_page')
+
 WebUI.waitForElementPresent(findTestObject('ObjectWebSpy/01-Homepage-Login/img_LogoLogin'), 0)
 
 WebUI.setText(findTestObject('ObjectWebSpy/01-Homepage-Login/txtField_username'), GlobalVariable.username)
@@ -31,11 +33,15 @@ WebUI.verifyElementNotPresent(findTestObject('ObjectWebSpy/01-Homepage-Login/txt
 
 WebUI.waitForElementPresent(findTestObject('ObjectWebSpy/02-Product Page/txt_Products Page'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('product_page')
+
 WebUI.click(findTestObject('ObjectWebSpy/02-Product Page/hamburger_Menu'))
 
 WebUI.click(findTestObject('ObjectWebSpy/02-Product Page/btn_Logout'))
 
 WebUI.waitForElementPresent(findTestObject('ObjectWebSpy/01-Homepage-Login/img_LogoLogin'), 0)
+
+WebUI.takeScreenshotAsCheckpoint('after_logout_page')
 
 WebUI.closeBrowser()
 
