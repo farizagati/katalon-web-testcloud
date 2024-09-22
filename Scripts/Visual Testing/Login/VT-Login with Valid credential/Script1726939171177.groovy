@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Visual Testing/Block-TC/block-Open Browser with config'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshotAsCheckpoint('img_login_page')
+WebUI.waitForElementVisible(findTestObject('ObjectWebSpy/01-Homepage-Login/img_LogoLogin'), 0)
 
-WebUI.waitForElementPresent(findTestObject('ObjectWebSpy/01-Homepage-Login/img_LogoLogin'), 0)
+WebUI.takeScreenshotAsCheckpoint('img_login_page')
 
 WebUI.setText(findTestObject('ObjectWebSpy/01-Homepage-Login/txtField_username'), GlobalVariable.username)
 
