@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.url)
 
-WebUI.setViewPortSize(1366, 768)
+WebUI.setViewPortSize(1920, 651)
 
